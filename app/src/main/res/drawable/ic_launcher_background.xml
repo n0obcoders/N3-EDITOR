@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Deep teal field with two faint flowing curves, matching the N3-Core mark. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="radial" android:centerX="40" android:centerY="30" android:gradientRadius="110">
+                <item android:offset="0" android:color="#1F5458" />
+                <item android:offset="0.55" android:color="#123236" />
+                <item android:offset="1" android:color="#0A1A1D" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:strokeColor="#3A8C86" android:strokeAlpha="0.22" android:strokeWidth="1.2"
+        android:pathData="M-4,78C22,62 40,92 62,74S96,40 112,52" />
+    <path android:strokeColor="#3A8C86" android:strokeAlpha="0.14" android:strokeWidth="1"
+        android:pathData="M-4,30C18,44 36,14 60,28S92,66 112,58" />
+</vector>

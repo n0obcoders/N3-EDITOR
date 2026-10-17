@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Notes stay local: exclude the database from Android's cloud auto-backup. Use the in-app backup instead. -->
+<full-backup-content>
+    <exclude domain="database" path="notebook.db" />
+    <exclude domain="database" path="notebook.db-wal" />
+    <exclude domain="database" path="notebook.db-shm" />
+    <exclude domain="file" path="attachments" />
+</full-backup-content>

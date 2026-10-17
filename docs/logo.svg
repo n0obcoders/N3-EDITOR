@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="18 18 72 72">
+  <defs>
+    <radialGradient id="bg" cx="40" cy="30" r="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F5458"/>
+      <stop offset="0.55" stop-color="#123236"/>
+      <stop offset="1" stop-color="#0A1A1D"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="33" y1="41" x2="75" y2="67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B4FFE9"/>
+      <stop offset="0.55" stop-color="#7FE3C9"/>
+      <stop offset="1" stop-color="#4CC2A6"/>
+    </linearGradient>
+    <clipPath id="r"><rect x="18" y="18" width="72" height="72" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect x="0" y="0" width="108" height="108" fill="url(#bg)"/>
+    <path d="M-4,78C22,62 40,92 62,74S96,40 112,52" fill="none" stroke="#3A8C86" stroke-opacity="0.22" stroke-width="1.2"/>
+    <path d="M-4,30C18,44 36,14 60,28S92,66 112,58" fill="none" stroke="#3A8C86" stroke-opacity="0.14" stroke-width="1"/>
+    <path d="M39.5,43.5L32.5,54L39.5,64.5M68.5,43.5L75.5,54L68.5,64.5M47.5,66V42L60.5,66V42" fill="none" stroke="#7FF5D2" stroke-opacity="0.10" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M39.5,43.5L32.5,54L39.5,64.5M68.5,43.5L75.5,54L68.5,64.5M47.5,66V42L60.5,66V42" fill="none" stroke="url(#mark)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

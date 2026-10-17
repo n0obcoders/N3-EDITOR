@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- N3-Core mark: an N between code chevrons, in a mint gradient. Kept inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- soft glow behind the mark -->
+    <path android:strokeWidth="9" android:strokeAlpha="0.10" android:strokeColor="#7FF5D2"
+        android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M39.5,43.5L32.5,54L39.5,64.5M68.5,43.5L75.5,54L68.5,64.5M47.5,66V42L60.5,66V42" />
+    <path android:strokeWidth="4.2" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M39.5,43.5L32.5,54L39.5,64.5M68.5,43.5L75.5,54L68.5,64.5M47.5,66V42L60.5,66V42">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:type="linear" android:startX="33" android:startY="41" android:endX="75" android:endY="67">
+                <item android:offset="0" android:color="#B4FFE9" />
+                <item android:offset="0.55" android:color="#7FE3C9" />
+                <item android:offset="1" android:color="#4CC2A6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

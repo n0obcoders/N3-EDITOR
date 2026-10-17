@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="new_note" android:enabled="true" android:icon="@drawable/ic_shortcut_note" android:shortcutShortLabel="@string/new_note" android:shortcutLongLabel="@string/new_note">
+        <intent android:action="com.nitinshukla.notebook.NEW_NOTE" android:targetPackage="com.nitinshukla.notebook" android:targetClass="com.nitinshukla.notebook.MainActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="new_checklist" android:enabled="true" android:icon="@drawable/ic_shortcut_checklist" android:shortcutShortLabel="@string/note_type_checklist" android:shortcutLongLabel="@string/note_type_checklist">
+        <intent android:action="com.nitinshukla.notebook.NEW_CHECKLIST" android:targetPackage="com.nitinshukla.notebook" android:targetClass="com.nitinshukla.notebook.MainActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="new_code_note" android:enabled="true" android:icon="@drawable/ic_shortcut_code" android:shortcutShortLabel="@string/nav_code_notes" android:shortcutLongLabel="@string/new_code_note">
+        <intent android:action="com.nitinshukla.notebook.NEW_CODE_NOTE" android:targetPackage="com.nitinshukla.notebook" android:targetClass="com.nitinshukla.notebook.MainActivity" />
+    </shortcut>
+</shortcuts>
